@@ -1,1 +1,1 @@
-logs/
+.docker/opt/airflow/logs
