@@ -53,7 +53,9 @@ kwargs = {
     'is_paused_upon_creation': None,
     'jinja_environment_kwargs': None,
     'render_template_as_native_obj': False,
-    'tags': [],
+    'tags': [
+        'Core Concepts'
+    ],
     'owner_links': None,
     'auto_register': True,
     'fail_stop': False,
