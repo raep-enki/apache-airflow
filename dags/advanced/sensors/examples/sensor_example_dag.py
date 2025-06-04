@@ -30,7 +30,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating sensors',
     schedule_interval=None,
-    tags=['sensors']
+    tags=['advanced', 'example', 'sensors']
 )
 
 sensor_task = PythonSensor(

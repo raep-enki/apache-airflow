@@ -29,7 +29,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG with a Python decorator example',
     schedule_interval=None,
-    tags=['tasks_and_operators']
+    tags=['beginner', 'example', 'tasks_and_operators']
 )
 
 decorator_task = PythonOperator(

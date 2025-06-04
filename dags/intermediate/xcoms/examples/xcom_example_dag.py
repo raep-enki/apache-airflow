@@ -26,7 +26,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating XComs',
     schedule_interval=None,
-    tags=['xcoms']
+    tags=['intermediate', 'example', 'xcoms']
 )
 
 push_task = PythonOperator(

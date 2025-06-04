@@ -24,7 +24,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating execution_timeout and SLA',
     schedule_interval=None,
-    tags=['task_timeouts_and_slas']
+    tags=['intermediate', 'example', 'task_timeouts_and_slas']
 )
 
 timeout_task = PythonOperator(

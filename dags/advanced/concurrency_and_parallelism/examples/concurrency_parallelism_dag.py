@@ -26,7 +26,7 @@ dag = DAG(
     schedule_interval=None,
     max_active_tasks=2,
     concurrency=2,
-    tags=['concurrency_and_parallelism']
+    tags=['advanced', 'example', 'concurrency_and_parallelism']
 )
 
 for i in range(4):

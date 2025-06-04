@@ -21,7 +21,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating Jinja templating',
     schedule_interval=None,
-    tags=['templates_and_jinja']
+    tags=['intermediate', 'example', 'templates_and_jinja']
 )
 
 template_task = PythonOperator(

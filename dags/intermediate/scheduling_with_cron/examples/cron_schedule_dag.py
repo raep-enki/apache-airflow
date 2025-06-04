@@ -21,7 +21,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG scheduled with a cron expression',
     schedule_interval='30 7 * * *',
-    tags=['scheduling_with_cron']
+    tags=['intermediate', 'example', 'scheduling_with_cron']
 )
 
 cron_task = PythonOperator(

@@ -27,7 +27,7 @@ dag = DAG(
     description='DAG with catchup disabled and set operations',
     schedule_interval='@daily',
     catchup=False,
-    tags=['disabling_catchup']
+    tags=['beginner', 'example', 'disabling_catchup']
 )
 
 set_task = PythonOperator(

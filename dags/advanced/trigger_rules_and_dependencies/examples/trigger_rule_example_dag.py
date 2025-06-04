@@ -29,7 +29,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating trigger rules',
     schedule_interval=None,
-    tags=['trigger_rules_and_dependencies']
+    tags=['advanced', 'example', 'trigger_rules_and_dependencies']
 )
 
 success_task = PythonOperator(

@@ -26,7 +26,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating retries and retry delay',
     schedule_interval=None,
-    tags=['task_retries_and_retry_delay']
+    tags=['intermediate', 'example', 'task_retries_and_retry_delay']
 )
 
 retry_task = PythonOperator(

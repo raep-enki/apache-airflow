@@ -1,7 +1,7 @@
 """
 DAG Example: What is a DAG - Hello World
 Owner: Servicios Enki de México S.A.P.I. de C.V.
-Tag: what_is_a_dag
+Tags: ['beginner', 'example', 'what_is_a_dag']
 """
 from airflow import DAG
 from airflow.operators.python import PythonOperator
@@ -21,7 +21,7 @@ dag = DAG(
     default_args=default_args,
     description='A minimal DAG example with Hello World',
     schedule_interval=None,
-    tags=['what_is_a_dag']
+    tags=['beginner', 'example', 'what_is_a_dag']
 )
 
 hello_task = PythonOperator(

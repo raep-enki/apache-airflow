@@ -23,7 +23,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating Airflow Variables and Connections',
     schedule_interval=None,
-    tags=['variables_and_connections']
+    tags=['intermediate', 'example', 'variables_and_connections']
 )
 
 variable_task = PythonOperator(

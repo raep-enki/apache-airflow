@@ -27,7 +27,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG with default args and list comprehension',
     schedule_interval='@daily',
-    tags=['default_args_and_start_date']
+    tags=['beginner', 'example', 'default_args_and_start_date']
 )
 
 squares_task = PythonOperator(

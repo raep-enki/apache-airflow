@@ -26,7 +26,7 @@ dag = DAG(
     default_args=default_args,
     description='A simple DAG structure using Fibonacci sequence',
     schedule_interval=None,
-    tags=['basic_dag_structure']
+    tags=['beginner', 'example', 'basic_dag_structure']
 )
 
 fibonacci_task = PythonOperator(

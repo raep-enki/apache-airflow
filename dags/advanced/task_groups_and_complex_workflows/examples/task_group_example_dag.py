@@ -22,7 +22,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating TaskGroup',
     schedule_interval=None,
-    tags=['task_groups_and_complex_workflows']
+    tags=['advanced', 'example', 'task_groups_and_complex_workflows']
 )
 
 with TaskGroup('group1', dag=dag) as group1:
