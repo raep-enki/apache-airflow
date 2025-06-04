@@ -23,7 +23,8 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating pools and queues',
     schedule_interval=None,
-    tags=['advanced', 'example', 'pools_and_queues']
+    tags=['advanced', 'example', 'pools_and_queues'],
+    dag_display_name='Pools and Queues Example'
 )
 
 for i in range(3):

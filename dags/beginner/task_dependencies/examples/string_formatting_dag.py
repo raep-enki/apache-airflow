@@ -33,7 +33,8 @@ dag = DAG(
     default_args=default_args,
     description='DAG showing task dependencies and string formatting',
     schedule_interval=None,
-    tags=['beginner', 'example', 'task_dependencies']
+    tags=['beginner', 'example', 'task_dependencies'],
+    dag_display_name='Task Dependencies String Formatting Example'
 )
 
 split_task = PythonOperator(

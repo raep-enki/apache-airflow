@@ -29,7 +29,8 @@ dag = DAG(
     default_args=default_args,
     description='DAG demonstrating branching with PythonOperator',
     schedule_interval=None,
-    tags=['intermediate', 'example', 'branching']
+    tags=['intermediate', 'example', 'branching'],
+    dag_display_name='Branching PythonOperator Example'
 )
 
 branch_task = BranchPythonOperator(

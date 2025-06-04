@@ -21,7 +21,8 @@ dag = DAG(
     default_args=default_args,
     description='A minimal DAG example with Hello World',
     schedule_interval=None,
-    tags=['beginner', 'example', 'what_is_a_dag']
+    tags=['beginner', 'example', 'what_is_a_dag'],
+    dag_display_name='Hello World DAG Example'
 )
 
 hello_task = PythonOperator(

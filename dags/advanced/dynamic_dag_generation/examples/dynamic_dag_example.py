@@ -21,7 +21,8 @@ dag = DAG(
     default_args=default_args,
     description='DAG generated dynamically with a loop',
     schedule_interval=None,
-    tags=['advanced', 'example', 'dynamic_dag_generation']
+    tags=['advanced', 'example', 'dynamic_dag_generation'],
+    dag_display_name='Dynamic DAG Generation Example'
 )
 
 for i in range(5):
